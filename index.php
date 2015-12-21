@@ -1,6 +1,6 @@
 <?php
 $path='/Users/nahid/webapps';
-$escape=array('..','.', 'appxpo', '__projectexplorer', 'phpmyadmin');
+$escape=array('..','.', 'appxpo', 'appxpo', 'phpmyadmin','crudx');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,19 +16,19 @@ $escape=array('..','.', 'appxpo', '__projectexplorer', 'phpmyadmin');
     <title>Appxpo</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="__projectexplorer/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="appxpo/css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="__projectexplorer/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="appxpo/font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="__projectexplorer/css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="appxpo/css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="__projectexplorer/css/creative.css" type="text/css">
-    <link rel="stylesheet" href="__projectexplorer/css/style.css" type="text/css">
+    <link rel="stylesheet" href="appxpo/css/creative.css" type="text/css">
+    <link rel="stylesheet" href="appxpo/css/style.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,7 +37,7 @@ $escape=array('..','.', 'appxpo', '__projectexplorer', 'phpmyadmin');
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="icon" type="image/png" sizes="128x128" href="http://localhost/__projectexplorer/favicon.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="http://localhost/appxpo/favicon.png">
 
 </head>
 
@@ -132,18 +132,18 @@ $escape=array('..','.', 'appxpo', '__projectexplorer', 'phpmyadmin');
     </footer>
 
     <!-- jQuery -->
-    <script src="__projectexplorer/js/jquery.js"></script>
+    <script src="appxpo/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="__projectexplorer/js/bootstrap.min.js"></script>
+    <script src="appxpo/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="__projectexplorer/js/jquery.easing.min.js"></script>
-    <script src="__projectexplorer/js/jquery.fittext.js"></script>
-    <script src="__projectexplorer/js/wow.min.js"></script>
+    <script src="appxpo/js/jquery.easing.min.js"></script>
+    <script src="appxpo/js/jquery.fittext.js"></script>
+    <script src="appxpo/js/wow.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="__projectexplorer/js/creative.js"></script>
+    <script src="appxpo/js/creative.js"></script>
 
     <script>
 $(document).ready(function(){
