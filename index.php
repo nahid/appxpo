@@ -1,6 +1,6 @@
 <?php
 $path='/Users/nahid/webapps';
-$escape=array('..','.', 'appxpo');
+$escape=array('..','.', 'appxpo', '__projectexplorer', 'phpmyadmin');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,8 +72,12 @@ $escape=array('..','.', 'appxpo');
         <!-- /.container-fluid -->
     </nav>
 
-
     <section class="container-fluid" id="contact">
+   
+
+     <h2 id="pro_total"style="padding:10px; border-bottom:1px solid #556; margin-bottom:30px;">Total Project : </h2>
+
+
     <?php
         
         $dirs=scandir($path);
@@ -83,7 +87,7 @@ $escape=array('..','.', 'appxpo');
           $sl=&$total; 
             /* fetch all directory and files from root folder */
           
-            //echo"<h3>Total Projects: ".$sl."</h3>";
+            
             natcasesort($dirs);
          
             foreach($dirs as $dir){
@@ -107,10 +111,11 @@ $escape=array('..','.', 'appxpo');
                                 </div>
 
                             </div>';
+                         $total++;
                     }
                 }
             
-                $total++;
+               
                         
             }
         
@@ -143,6 +148,11 @@ $escape=array('..','.', 'appxpo');
     <script>
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
+
+    var total=<?php echo $total; ?>
+
+    var divTotal=document.getElementById('pro_total');
+    divTotal.innerHTML+=total;
 });
 </script>
 
